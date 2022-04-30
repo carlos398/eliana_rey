@@ -1,10 +1,17 @@
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import Inicio from "./pages/Inicio";
+import Comercio from "./pages/Comercio";
 
 function App() {
   return (
-    <div className="App">
-      para iniciar racha en git
+    <div className="Container">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/inicio" element={<Comercio />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
