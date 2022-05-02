@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 
+import '../css/Slider.css'
+
 const Slider = () => {
 
     const images = ['imagen1.jpeg', 'imagen2.jpeg', 'imagen3.jpeg', 'imagen4.jpg']
@@ -25,9 +27,13 @@ const Slider = () => {
 
   return (
     <div className='Slider'>
-      <img src={require(`../images/${selectedImage}`)} alt={selectedImage} />
-      <button onClick={prevImage}>{"<"}</button>
-      <button onClick={nextImage}>{">"}</button>
+      <div className='sliderImgContainer'>
+        <img src={require(`../images/${selectedImage}`)} alt={selectedImage} />
+      </div>
+      <div className='btnContainer'>
+        <button onClick={prevImage}>{"<"}</button>
+        <button onClick={nextImage}>{">"}</button>
+      </div>
     </div>
   )
 }

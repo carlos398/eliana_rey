@@ -1,12 +1,12 @@
 import React from 'react'
 import Slider from '../components/Slider'
 
+import '../css/Inicio.css'
+
 const Inicio = () => {
   return (
     <div className='ContenedorInicio'>
-      <div className='SliderContainer'>
-        <Slider/>
-      </div>
+      <Slider/>
     </div>
   )
 }
