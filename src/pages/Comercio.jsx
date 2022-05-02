@@ -1,8 +1,11 @@
 import React from 'react'
+import Target from '../components/Target'
 
 const Comercio = () => {
   return (
-    <div>Comercio</div>
+    <div className='TargetsContainer'>
+      <Target/>
+    </div>
   )
 }
 
