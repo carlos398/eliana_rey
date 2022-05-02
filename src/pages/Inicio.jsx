@@ -1,10 +1,11 @@
 import React from 'react'
+import Slider from '../components/Slider'
 
 const Inicio = () => {
   return (
     <div className='ContenedorInicio'>
       <div className='SliderContainer'>
-        Aca va un slider
+        <Slider/>
       </div>
     </div>
   )
