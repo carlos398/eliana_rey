@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #686565;
+  overflow-x: hidden;
 }
 
 .Container {
@@ -16,3 +17,44 @@ body {
   justify-content: center;
   width: 100vw;
 }
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(250, 194, 203, 0.685);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+header button{
+  background: none;
+  border: none;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+}
+
+header button .img {
+  background-color: none;
+  width: 100%;
+  height: 100%;
+}
+
+main{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
