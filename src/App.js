@@ -3,9 +3,11 @@ import { useState } from "react";
 
 import Inicio from "./pages/Inicio";
 import Comercio from "./pages/Comercio";
+import Navigation from "./components/Navegation";
+import FooterComp from "./components/FooterComp";
 
 import "./css/App.css";
-import Navigation from "./components/Navegation";
+
 
 function App() {
 
@@ -33,6 +35,10 @@ function App() {
           </Routes>
         </Router>
       </main>
+
+      <footer>
+        <FooterComp/>
+      </footer>
     </div>
   );
 }
