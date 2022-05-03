@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,200;1,300;1,400&display=swap');
+
 *{
   box-sizing: border-box;
 }
@@ -29,6 +31,12 @@ header {
   padding: 0 20px;
   margin-bottom: 0px;
   position: relative;
+  font-family: 'Oleo Script Swash Caps';
+}
+
+header h1 span{
+  color: #fac4c4;
+  text-shadow: 2px 2px 2px #000;
 }
 
 header button{

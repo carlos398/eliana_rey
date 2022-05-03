@@ -21,7 +21,7 @@ function App() {
         <button onClick={toggleNav}>
           <img src={require("./images/menu.png")} alt="facebook" />
         </button>
-        <h1>ElianaRey</h1>
+        <h1>Eliana<span>Rey</span></h1>
       </header>
 
       <main>
