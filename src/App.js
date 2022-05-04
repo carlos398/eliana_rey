@@ -21,7 +21,7 @@ function App() {
     <div className="Container">
       <header>
         <button onClick={toggleNav}>
-          <img src={require("./images/menu.png")} alt="facebook" />
+          <img src={require("./images/menu.png")} alt="menu" />
         </button>
         <h1>Eliana<span>Rey</span></h1>
       </header>

@@ -10,13 +10,16 @@
 .footerContainer .ElianaRey_Redes{
     width: 90%;
     margin: auto;
-    height: 200px;
     display: grid;
-    grid-template-columns: auto 1fr;
-
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
 }
 
 .footerContainer .ElianaRey_Redes .ElianaRey_Redes_Logo{
+    max-width: 350px;
+    max-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,15 +49,17 @@
 
 .footerContainer .creadroRedes {
     background-color: black;
-    height: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footerContainer .creadroRedes a{
     text-decoration: none;
     text-align: center;
     color: #fff;
-    margin: 5px auto;
-    margin-left: 10px;
+    margin: auto;
     font-size: 1.1em;
     font-weight: bold;
 }

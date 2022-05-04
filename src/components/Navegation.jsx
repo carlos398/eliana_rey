@@ -11,13 +11,12 @@ const Navigation = (props) => {
     <div className={`${show} navigation`}>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" >Home</NavLink>
         </li>
 
         <li>
-          <NavLink to="/comercio">Comercio</NavLink>
+          <NavLink to="/tienda">Comercio</NavLink>
         </li>
-
       </ul>
     </div>
   );
