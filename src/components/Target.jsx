@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../css/Target.css'
+
 const Target = () => {
   return (
     <div className='Target'>
@@ -8,7 +10,7 @@ const Target = () => {
         </div>
         <div className='Target__info'>
             <h2>Nombre del Target</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi sed nisi. Sed euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi sed nisi. Sed euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi sed nisi. Sed euismod, nisi vel consectetur interdum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum, nisl nisi tincidunt nisi, eget egestas nisl nisi sed nisi. Sed euismod, nisi vel consectetur interdum.</p>
         </div>
     </div>
   )

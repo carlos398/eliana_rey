@@ -9,6 +9,16 @@ const Comercio = () => {
       <Target/>
       <Target/>
       <Target/>
+      <Target/>
+
+      <Target/>
+      <Target/>
+      <Target/>
+      <Target/>
+      <Target/>
+      <Target/>
+      <Target/>
+      <Target/>
     </div>
   )
 }
